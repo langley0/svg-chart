@@ -1,0 +1,39 @@
+body {
+    background-color: #233;
+}
+
+.demo-chart {
+    margin: auto;
+}
+
+.chart-svg {
+    position:absolute;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.chart-line {
+    stroke-width: 2;
+    stroke: #ddd;
+    fill: none;
+}
+
+.chart-lastpoint {
+    fill: #ddd;
+}
+
+.chart-valueline {
+    stroke-width: 1;
+    stroke: #888;
+    fill: none;
+}
+
+.chart-tooltip {
+    position: relative;
+    color: #ddd;
+}
+
+.chart-title {
+    font-size: 20px;
+    color: #ddd;
+}
